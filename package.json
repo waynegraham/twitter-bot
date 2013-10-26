@@ -5,7 +5,7 @@
   "description": "Twitter-bot for THATCampVA2013",
   "licence": "MIT",
   "dependencies" : {
-    "twit": "~0.1.11"
+    "twit": "~1.1.11"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
