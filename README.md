@@ -121,7 +121,24 @@ as they see fit (as with their entire list of rules).
 [Twitter's API](https://dev.twitter.com/docs/api/1.1) at the 1.1 stage
 is reasonablys stable, and notes all of the actions you can program. If
 you want to do something with the API, it's worth reading through the
-documentation to see what's possible. 
+documentation to see what's possible.
+
+# Heroku
+
+Right now the bot will run on your local computer when you have it
+running. If you want this to run on a server, [Heroku](http://heroku.com)
+provides a nice hosting service for this kind of thing.
+
+To run on heroku, you will need to create a file named `Procfile` tell
+tell the service what to run. Create a file with the following in it:
+
+```
+web: node twitter-bot.js
+```
+
+## TODO: finish deploying to heroku
+
+
 
 # node.js
 
