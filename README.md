@@ -47,4 +47,40 @@ for this to propogate Twitter's system, so be patient).
 
 ## Project Setup
 
+To speed things along, I set up a repository with a file to tell node's
+package manager ([npm](https://npmjs.org/)) what this application needs.
+You will need to clone the repository, then tell node to resolve the
+dependencies:
 
+```console
+$ git clone https://github.com/waynegraham/twitter-bot.git
+$ cd twitter-bot
+$ npm install
+```
+I'll note that I have a few other things included, mostly development
+dependencies that I use as boilerplate for new projects using [Grunt](http://gruntjs.com/)
+that helps automate a lot of the things I do in development.
+
+## The Bot
+The [Twit](https://github.com/ttezel/twit) module actually ships with a
+bot, so getting up and going is really simple. In the console, change in
+to your project's `node_modules/twit/examples` directory:
+
+```shell
+$ cd node_modules/twit/examples
+```
+
+In that directory, we need to create a file named `config1.js` with the
+credentials we generated on Twitter.
+
+```javascript
+module.exports = {
+  consumer_key: "...",
+  consumer_secret: "...",
+  access_token: "...",
+  access_token_secret: "..."
+}
+```
+
+**Note:** Documentation for this is in the `twit` module's `README.md`
+file.
