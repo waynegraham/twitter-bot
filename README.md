@@ -123,4 +123,16 @@ is reasonablys stable, and notes all of the actions you can program. If
 you want to do something with the API, it's worth reading through the
 documentation to see what's possible. 
 
+# node.js
 
+Here are some resources for leveling up your node skills:
+
+* [The Node Beginner Book](http://www.nodebeginner.org/)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [Node.js for Beginners](http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/)
+* [How to Node](http://howtonode.org/)
+* [Node Guide](http://nodeguide.com/)
+* [Node.js Tutorials at Project 70](http://project70.com/)
+* [Masting node.js](http://visionmedia.github.io/masteringnode/)
+* [Nodetuts](http://nodetuts.com/)
+* [nodecasts](http://nodecasts.net/)
