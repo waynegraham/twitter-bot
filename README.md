@@ -24,7 +24,7 @@ console.log("Welcome to THATCampVA!");
 Save it, and run this command in the terminal to execute the program:
 
 ```shell
-node hello
+$ node hello
 ```
 
 You should see the console print `Welcome to THATCampVA!`; if you
@@ -64,10 +64,10 @@ that helps automate a lot of the things I do in development.
 ## The Bot
 The [Twit](https://github.com/ttezel/twit) module actually ships with a
 bot, so getting up and going is really simple. In the console, change in
-to your project's `node_modules/twit/examples` directory:
+to your project's `node_modules/twit` directory:
 
 ```shell
-$ cd node_modules/twit/examples
+$ cd node_modules/twit
 ```
 
 In that directory, we need to create a file named `config1.js` with the
@@ -84,3 +84,43 @@ module.exports = {
 
 **Note:** Documentation for this is in the `twit` module's `README.md`
 file.
+
+You can now fire up the twitter bot with the following command (assuming
+you're in the examples directory):
+
+```shell
+$ node examples/rtd2.js
+```
+You're now running a Twitter bot! The bot will execute every 40 seconds
+(the 40000 on the last line). If you want this to execute faster, set
+this number lower (like 10000, or 10 seconds). 
+
+## What's Going On?
+This program doesn't do much. Every 40 seconds it attempts to do one of
+three things:
+
+1. Tweet a random popular tweet from github
+1. Follow a friend of one of your followers
+1. Unfollow someone who hasn't followed you back.
+
+# Twitter Considerations
+Twitter doesn't ban bots, but it does what it can to prevent spam. This
+is a bit of a balancing act when you're writing a bot. You just need to
+be careful not to show the behavior indicative of a spam bot. 
+
+## Twitter's Rules
+Right now the bot does one of three things: retweets, follows, and
+unfollows. If you set the refresh interval too low (like lowering to
+every 10 seconds), you might have your account suspended and get a note
+from Twitter that your practicing "aggressive following." There's not an
+actual stated limit, so Twitter has some latitude to enforce the limit
+as they see fit (as with their entire list of rules).
+
+## Twitter's API
+
+[Twitter's API](https://dev.twitter.com/docs/api/1.1) at the 1.1 stage
+is reasonablys stable, and notes all of the actions you can program. If
+you want to do something with the API, it's worth reading through the
+documentation to see what's possible. 
+
+
