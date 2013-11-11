@@ -2,11 +2,16 @@
 
 # Setup
 
+This is the tl;dr section, there is a longer explanation about how to
+set this up in the next section.
+
 1. Install [Node.js](http://nodejs.org)
 1. Create an account for the bot on [Twitter](http://www.twitter.com)
 1. Register an application with the [Twitter
    API](https://dev.twitter.com)
-1. Create an access token
+1. Be sure to set the permissions to read/write
+1. Create an access token (if you created the token before you set the
+   application to be read/write, you will need to regenerate the token)
 1. Install the [twit node module](https://github.com/ttezel/twit)
 1. Configure your bot with the `consumer key`, `consumer secret`,
    `access token`, and `access token secret`
