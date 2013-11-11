@@ -1,9 +1,10 @@
 # THATCampVA Twitter Bot
 
-# Setup
+This is a brief workshop that spun out of the [Bots](http://virginia2013.thatcamp.org/2013/10/10/bots/)
+at [THATCamp Virginia](http://virginia2013.thatcamp.org/). 
 
-This is the tl;dr section, there is a longer explanation about how to
-set this up in the next section.
+
+# tl;dr
 
 1. Install [Node.js](http://nodejs.org)
 1. Create an account for the bot on [Twitter](http://www.twitter.com)
