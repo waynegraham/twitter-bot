@@ -11,7 +11,7 @@ at [THATCamp Virginia](http://virginia2013.thatcamp.org/).
 1. Register an application with the [Twitter
    API](https://dev.twitter.com)
 1. Be sure to set the permissions to read/write
-1. Create an access token (if you created the token before you set the
+1. Create an access token (if you created the token **before** you set the
    application to be read/write, you will need to regenerate the token)
 1. Install the [twit node module](https://github.com/ttezel/twit)
 1. Configure your bot with the `consumer key`, `consumer secret`,
@@ -46,7 +46,7 @@ some faulty bot logic along the way.
 Twitter gives developers the ability to register applications to
 programatically interact with their platform. Once you've created an
 application, take a look at the OAuth settings and note your *consumer
-key* and *consumer secret* (you'll need these). 
+key* and *consumer secret* (you'll need these).
 
 After you have this, create an *access token* (it takes a few minutes
 for this to propogate Twitter's system, so be patient). 
