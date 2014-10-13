@@ -125,7 +125,7 @@ as they see fit (as with their entire list of rules).
 ## Twitter's API
 
 [Twitter's API](https://dev.twitter.com/docs/api/1.1) at the 1.1 stage
-is reasonablys stable, and notes all of the actions you can program. If
+is reasonably stable, and notes all of the actions you can program. If
 you want to do something with the API, it's worth reading through the
 documentation to see what's possible.
 
