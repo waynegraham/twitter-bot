@@ -1,7 +1,7 @@
 # THATCampVA Twitter Bot
 
 This is a brief workshop that spun out of the [Bots](http://virginia2013.thatcamp.org/2013/10/10/bots/)
-at [THATCamp Virginia](http://virginia2013.thatcamp.org/). 
+at [THATCamp Virginia](http://virginia2013.thatcamp.org/).
 
 
 # tl;dr
@@ -34,7 +34,7 @@ $ node hello
 ```
 
 You should see the console print `Welcome to THATCampVA!`; if you
-didn't, something went horribly wrong. 
+didn't, something went horribly wrong.
 
 ## Twitter Account
 This is a bot, so be careful that you're not spamming people and
@@ -49,7 +49,7 @@ application, take a look at the OAuth settings and note your *consumer
 key* and *consumer secret* (you'll need these).
 
 After you have this, create an *access token* (it takes a few minutes
-for this to propogate Twitter's system, so be patient). 
+for this to propogate Twitter's system, so be patient).
 
 ## Project Setup
 
@@ -99,7 +99,7 @@ $ node examples/rtd2.js
 ```
 You're now running a Twitter bot! The bot will execute every 40 seconds
 (the 40000 on the last line). If you want this to execute faster, set
-this number lower (like 10000, or 10 seconds). 
+this number lower (like 10000, or 10 seconds).
 
 ## What's Going On?
 This program doesn't do much. Every 40 seconds it attempts to do one of
@@ -112,7 +112,7 @@ three things:
 # Twitter Considerations
 Twitter doesn't ban bots, but it does what it can to prevent spam. This
 is a bit of a balancing act when you're writing a bot. You just need to
-be careful not to show the behavior indicative of a spam bot. 
+be careful not to show the behavior indicative of a spam bot.
 
 ## Twitter's Rules
 Right now the bot does one of three things: retweets, follows, and
@@ -125,7 +125,7 @@ as they see fit (as with their entire list of rules).
 ## Twitter's API
 
 [Twitter's API](https://dev.twitter.com/docs/api/1.1) at the 1.1 stage
-is reasonablys stable, and notes all of the actions you can program. If
+is reasonably stable, and notes all of the actions you can program. If
 you want to do something with the API, it's worth reading through the
 documentation to see what's possible.
 
